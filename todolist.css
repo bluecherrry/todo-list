@@ -1,0 +1,131 @@
+*{
+  box-sizing: border-box;
+}
+.bgimg{
+  background-repeat: no-repeat;
+  background-image: url("womanlist.jpg");
+  position: relative;
+  background-position-x: center;
+  width: 100%;
+  height: auto;
+  z-index: -20;
+}
+
+
+.headdiv{
+  background-position: center;
+  position: relative ;
+  width: 30%;
+  margin: auto;
+ 
+
+}
+.headerh1{
+  position: absolute;
+  margin-left: 30%;
+  margin-bottom: 10px;
+}
+#myInput {
+  position: absolute;
+  margin-left: 40%;
+  top: 20%;
+  padding:11px;
+  border-radius: 5px;
+  border: 1px solid rgba(65, 32, 10, 0.39);
+  height: 30px;
+  color: rgb(24, 26, 26);
+  width: 17%;
+}
+.addbtn{
+  position: absolute;
+  left: 55%;
+  top: 20%;
+  background: burlywood;
+  height: 30px;
+  width: 60px;
+  padding:5px 13px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 2px;
+  color: white;
+}
+.addbtn:hover {
+  background-color: rgb(117, 114, 110);
+  
+}
+
+ul  li {
+list-style-type: none;
+border-radius: 5px;
+position: relative;
+width: 20%;
+left: 38%;
+top: 50%;
+padding: 10px 25px ;
+transition: 0.3s;font-size: 20px;cursor: pointer;
+-webkit-user-select: none;
+-ms-user-select:none;
+user-select:none;
+}
+ul li:nth-child(odd){
+  background-color: rgb(245, 245, 244);
+}
+ul li.checked {
+  background: rgb(238, 188, 188);
+  color: #fff;
+  border-bottom: 2px solid white;
+  text-decoration: line-through;
+}
+#myUL{
+  position: relative;
+  top: 30%;
+}
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 9px 16px;
+}
+
+.close:hover {
+  color: rgb(251, 249, 249);
+  background-color: rgb(248, 133, 123);
+  border-radius: 5px;
+}
+
+ul li:hover{
+  background-color: burlywood;
+}
+.done{
+  position: absolute;
+ bottom: 20%;
+ left: 40%;
+ border: #fff;
+ background-color: antiquewhite;
+ padding: 10px 15px;
+ border-radius: 5px;
+}
+.done:hover{
+  color: #fff;
+  background-color: rgb(118, 219, 93);
+}
+
+.top{
+  position: relative;
+  top: 30%;
+}
+
